@@ -35,7 +35,7 @@
        </tr>
    @endforeach
    </table>
-   {{ $items->appends(['sort' => $sort])->links() }}
+   {{-- {{ $items->appends(['sort' => $sort])->links() }} --}}
 @endsection
 
 @section('footer')
